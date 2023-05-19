@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Icon -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+        integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <input type="checkbox" id="check">
+    <div class="navbar">
+        <label for="check">
+            <i class="bi bi-filter-left" id="show"></i>
+        </label>
+
+        <div class="nav-notification">
+            <i class="bi bi-bell-fill"></i>
+        </div>
+
+        <div class="nav-profile">
+            <img src="/assets/image/profile-example.webp" alt="">
+            <p>
+                Admin
+            </p>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <header>Admin Dashboards
+            <label for="check">
+                <i class="bi bi-filter" id="hide"></i>
+            </label>
+        </header>
+        <ul>
+            <a href="index.html">
+                <li>
+                    <i class="bi bi-house-fill"></i> Home
+                </li>
+            </a>
+            <a href="index.html">
+                <li>
+                    <i class="bi bi-people-fill"></i> Users
+                </li>
+            </a>
+            <a href="index.html">
+                <li>
+                    <i class="bi bi-building"></i> Departement
+                </li>
+            </a>
+            <a href="index.html">
+                <li>
+                    <i class="bi bi-border-style"></i> Title
+                </li>
+            </a>
+        </ul>
+    </div>
+
+    <section>
+        <div class="books">
+            <div class="books-header">
+                <p>
+                    borrowed book
+                </p>
+            </div>
+
+            <div class="books-content">
+                <div>
+                    <div class="logo l-a"></div>
+                    <div class="books-text">
+                        <p>
+                            borrowed
+                        </p>
+                        <h2>
+                            350 books
+                        </h2>
+                    </div>
+                </div>
+                <div>
+                    <div class="logo l-b"></div>
+                    <div class="books-text">
+                        <p>
+                            This week
+                        </p>
+                        <h2>
+                            68 books
+                        </h2>
+                    </div>
+                </div>
+                <div>
+                    <div class="logo l-c"></div>
+                    <div class="books-text">
+                        <p>
+                            This Month
+                        </p>
+                        <h2>
+                            235 books
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="books-button">
+                <a href="">
+                    View Completed Report
+                </a>
+            </div>
+        </div>
+
+        <div class="section-group">
+            <div class="chart">
+                <p>books Chart</p>
+                <div class="chart-content">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+
+            <div class="quality">
+                <p>Book Quality</p>
+                <div class="chart-content">
+                    <canvas id="qualityChart"></canvas>
+                </div>
+            </div>
+
+            <div class="borrower">
+                <p>borrower</p>
+                <table class="borrower-list">
+                    <thead>
+                        <tr>
+                            <td>
+                                Profile
+                            </td>
+                            <td>
+                                Name
+                            </td>
+                            <td>
+                                Borrowed Book
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+
+<script src="/assets/js/main.js">
+</script>
+
+</html>

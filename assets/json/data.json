@@ -1,0 +1,62 @@
+[
+    {
+        "name" : "Budi Setiawan",
+        "img_path" : "/assets/image/profile-example.webp",
+        "book" : "3"
+    },
+    {
+        "name" : "Galang Gunawan",
+        "img_path" : "/assets/image/profile-example.webp",
+        "book" : "6"
+    },
+    {
+        "name" : "Topik Sinulingga",
+        "img_path" : "/assets/image/profile-example.webp",
+        "book" : "2"
+    },
+    {
+        "name" : "Dedi Gunawan",
+        "img_path" : "/assets/image/profile-example.webp",
+        "book" : "2"
+    },
+    {
+        "name" : "Ade diandra",
+        "img_path" : "/assets/image/profile-example.webp",
+        "book" : "7"
+    },
+    {
+        "name" : "Harits",
+        "img_path" : "/assets/image/profile-example.webp",
+        "book" : "4"
+    },
+    {
+        "name" : "Febri Ariadi",
+        "img_path" : "/assets/image/profile-example.webp",
+        "book" : "8"
+    },
+    {
+        "name" : "Marva Fatillah",
+        "img_path" : "/assets/image/profile-example.webp",
+        "book" : "3"
+    },
+    {
+        "name" : "Rehan Han Chong",
+        "img_path" : "/assets/image/profile-example.webp",
+        "book" : "4"
+    },
+    {
+        "name" : "Parves Ilham",
+        "img_path" : "/assets/image/profile-example.webp",
+        "book" : "1"
+    },
+    {
+        "name" : "Genta Hali",
+        "img_path" : "/assets/image/profile-example.webp",
+        "book" : "8"
+    },
+    {
+        "name" : "Hasan Husein",
+        "img_path" : "/assets/image/profile-example.webp",
+        "book" : "6"
+    }
+]
